@@ -1,0 +1,35 @@
+.carousel-inner{
+    height: 500px;
+}
+
+.item, img{
+    height: 500px !important;
+}
+
+//nesting 
+
+// .carousel .carousel-item{
+
+
+
+// }
+
+#carouselExampleControls .carousel-item img{
+    object-fit: cover;
+    object-position: center;
+    height: 60vh;
+    overflow: hidden;
+}
+
+#carouselExampleControls .carousel-item:before{
+    content: "";
+    background-image: linear-gradient(
+        to bottom,
+        transparent, rgba(0,0,0,0.5)
+    );
+    display: block;
+    position: absolute;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+}

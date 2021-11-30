@@ -1,0 +1,41 @@
+
+
+.title{
+    text-align: center;
+    padding: 30px 30px;
+}
+
+.content{
+    box-sizing: border-box;
+}
+
+.text{
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.text img{
+   width: 400px;
+}
+
+
+//RESPONSIVE//
+
+/* x-small  < 576px */
+@media (max-width: 576px) { 
+    .info{
+        text-align: center;
+    }
+    .text{
+        display: block;
+        text-align: center;
+    }
+    .text img{
+        width: 200px;
+    }
+  }
+  
+  

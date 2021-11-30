@@ -1,0 +1,22 @@
+<div class="container">
+  <div class="row">
+    <div class="col-12 title">
+      <h2>Welcome to our online store</h2>
+    </div>
+  </div>
+ <div class="row">
+   <div class="col-12 text">
+    <p>Get some of the best craft beers in the world here. We get fresh deliveries of beers each week. Now offering the most highly sought after craft beer breweries, over 1800 craft beers available!</p>
+   </div>
+ </div>
+    
+ 
+
+  <div class="container grid">
+    <app-item-short *ngFor="let item of api.bieres" 
+    [name]="item.name" 
+    [image_url]="item.image_url" 
+    [id]="item.id">
+    </app-item-short>
+  </div>
+</div>

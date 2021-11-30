@@ -1,0 +1,13 @@
+<div class="container beer-card">
+
+  <!-- //........[xxx] biding -->
+  <img class="beer-img" [src]= "image_url" alt="">
+
+  <!-- //string interpolation -->
+  <h4>{{name}}</h4>
+  <p
+  *ngIf="abv !=0
+  ">Alcohol {{abv}}%</p>
+  
+  <button class="button-35" role="button" [routerLink]="['item' , id]">Learn more</button>
+</div>

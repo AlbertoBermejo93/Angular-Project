@@ -1,0 +1,30 @@
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+.grid > app-item-short{
+    margin-bottom: 40px;
+    
+}
+
+.title{
+    text-align: center;
+    padding: 30px 30px;
+}
+
+.text{
+    margin-bottom: 30px;
+}
+
+
+/* x-small  < 576px */
+@media (max-width: 576px) { 
+    .grid{
+        display: block;
+    }
+  }
+  
+  

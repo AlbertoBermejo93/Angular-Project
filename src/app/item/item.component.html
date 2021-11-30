@@ -1,0 +1,33 @@
+<div class="container description">
+  <div class="row">
+    <div class="col-12">
+      <div class="item-top">
+        <h2>{{name1}}</h2>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-3">
+      <div class="img-container">
+        <img [src]="image_url" alt="">
+      </div>
+    </div>
+    <div class="col-9">
+      <div class="desc-container">
+        <p> <strong>Description:</strong> <br> <br>{{description}}</p>
+        <p><strong>Brewing date:</strong> {{first_brewed}}</p>
+        <p><strong>Alcohol degree:</strong> {{abv}}%</p>
+        <p><strong>Food pairing recommendation: </strong><br><br> {{food_pairing}}.</p>
+
+        <button class="button-35" role="button" routerLink=''>Go home</button>
+        <button class="button-35" role="button" routerLink='/boutique'>Store</button>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+</div>

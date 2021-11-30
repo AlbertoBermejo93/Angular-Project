@@ -1,0 +1,30 @@
+.beer-card{
+    box-sizing: border-box;
+    text-align: center;
+    background-color: rgba(207, 207, 207, 0.233);
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    transition: all 250ms;
+  
+}
+
+.beer-card:hover{
+    
+    transform: translateY(-5px);
+}
+
+.beer-card img{
+    margin: 20px 0;
+}
+
+h4{
+    font-size: 20px;
+    margin: 20px 0;
+}
+img.beer-img{
+    max-height: 250px;
+    max-width: 100px;
+}
+
+button{
+    margin: 20px 0;
+}

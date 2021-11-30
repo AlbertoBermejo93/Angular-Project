@@ -1,0 +1,29 @@
+.catalog{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.catalog{
+    background-color: #fff
+}
+
+.catalogue-text{
+    text-align: center;
+    padding-top: 30px;
+}
+
+.catalogue-text h2{
+    margin-bottom: 30px;
+}
+
+app-item-short{
+    margin: 30px 0;
+}
+
+@media (max-width: 576px) { 
+    .catalog{
+        display: block;
+    }
+  
+  }

@@ -1,0 +1,13 @@
+<div class="container-fluid catalog">
+  <div class="container catalogue-text">
+    <h2>Catalog</h2>
+  </div>
+  
+  <app-item-short 
+  *ngFor="let item of api.bieres" 
+[name]="item.name"
+[abv]="item.abv"
+  [id]="item.id">
+</app-item-short>
+
+</div>

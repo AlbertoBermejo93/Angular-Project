@@ -1,0 +1,16 @@
+<div class="container-fluid banner">
+  <div class="container text ">
+    <h2>Beers of the week</h2>
+  </div>
+  <div class="container products">
+      <!-- //slice(0,3) sirve para definir cuantas veces queremos aplicar los objetos en la pagina -->
+      
+      <!--Con la api.getBeers podemos utilizar el poder del servicio API para obtener el numero de items que deseemos-->
+  
+    <app-item-short *ngFor="let item of api.getBeers(3)" 
+    [image_url]="item.image_url" 
+    [name]="item.name"
+    [id]="item.id"></app-item-short>
+  </div>
+  
+</div>
