@@ -1,5 +1,14 @@
 # Bieres
 
+Welcome to Beer Nation Project!
+
+This is a small project I created to practice using Angular. My goal was to leanr how to use an API. 
+
+I really enjoyed the whole process and I'm very exited to continue to work using Agular.
+
+Enjoy! 
+
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.11.
 
 ## Development server
